@@ -1,0 +1,128 @@
+body {
+
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    margin: 0;
+    background-color: hotpink;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    font-size: 0;
+    direction: rtl;
+}
+
+.footer {
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    font-size: 0;
+    direction: rtl;
+}
+
+.navigationbar {
+    font-size: 10px;
+    margin: 10px;
+}
+
+#link-button li {
+    display: flex;
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link-nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.link-nav-item:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+section {
+    display: block
+}
+
+.main-item {
+    display: flex;
+    margin: 0;
+    font-size: 0;
+
+    width: 100%;
+
+}
+
+.div-width {
+    display: inline-block;
+
+    text-align: justify;
+    width: 33.3%;
+    font-size: 20px;
+    padding: 0px 30px;
+
+
+}
+
+.div-width img {
+    width: 98%;
+    height: 500px;
+    margin-top: 25px;
+
+}
+
+.heading {
+    padding: 10px 40px;
+    text-align: center;
+}
+
+
+.link-button {
+    display: inline-block;
+    background-color: rgb(51, 51, 143);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 80px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.link-button:hover {
+    color: blue;
+    text-decoration: underline 2px solid red;
+    background-color: white;
+}
+
+
+.article {
+    height: 240px;
+    background-color: chartreuse;
+    font-size: 20px;
+    margin: 5px;
+    padding: 0px 30px;
+
+}
+
+#article-1 {
+    background-color: black;
+    color: white;
+}
+
+#article-2 {
+    background-color: rgb(236, 233, 233);
+}
+
+#Consulting-Services {
+    padding: 0px 50px;
+}
